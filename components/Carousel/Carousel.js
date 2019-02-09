@@ -27,7 +27,7 @@ display(){
 }
 
 rightImage() {
-    if (this.index <Array.from(this.images).length - 1) {
+    if (this.index < Array.from(this.images).length - 1) {
         this.index++;
         this.check();
         this.display();
