@@ -1,5 +1,19 @@
 class Carousel {
-
+    constructor(element) {
+        this.element = element;
+        this.leftArrow = element.querySelector(".carousel .left-button");
+        this.rightArrow= element.querySelector(".carousel .right-button");
+        this.index = 0;
+        this.image = element.querySelectorAll("img")[this.index];
+        this.image.style.display = "block";
+        this.images = element.querySelectorAll(".carousel img");
+        this.rightArrow.addEventListener("click", () => {
+            this.rightImage();
+        });
+        this.leftArrow.addEventListener("click", () => {
+            this.leftImage();
+        });
+    }
 }
 
 let carousel = document.querySelector();
@@ -12,3 +26,4 @@ let carousel = document.querySelector();
     5. Think of how you would animate this compoennt. Make the cards slide in and out, or fade. It's up to you!
     6. Have fun!
 */
+
