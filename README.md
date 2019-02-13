@@ -32,13 +32,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+DOM stands for Document Object model. The DOM allows programming languages to connect to and interact with web pages.
+The DOM represents a web page so that programs can change the document structure, style, and content. The DOM also represents a document with a logical tree. The branches on the tree are various nodes and objects. DOM methods allow a program to call different branches/nodes on the logical tree.
+
 2. What is an event?
+
+An event is an action a user of a website makes that triggers a programming script to excute a new function for the webpage. Some examples of events include 'click', 'dblclick', 'scroll', etc.
 
 3. What is an event listener?
 
+addEventListener() is a DOM method that sets up a function that is triggered whenever the specified event occurs.
+
 4. Why would we convert a NodeList into an Array?
 
+Converting a NodeList into an array gives you the ability to use array methods such as .forEach() and .map().
+
 5. What is a component?
+
+A component is a reusable combination of html, css and javascript that has style, logic and functionality. Examples of components include tabs and cards.
 
 ### Git Set up
 
